@@ -36,7 +36,7 @@ public class Assignment3 {
 
 	public static int countUnique(List<Integer> list) {
 		
-		Set<Integer> numSetUnique = new TreeSet<Integer>();
+		Set<Integer> numSetUnique = new HashSet<Integer>();
 		// print original list
 		System.out.println(list);
 		for (Integer i : list) 
