@@ -18,7 +18,7 @@ public class Assignment4 {
 		
 		
 		Map<String, String> checkUnique2 = new TreeMap<>();
-		// create map one and its key/values
+		// create map two and its key/values
 		checkUnique2.put("Kendrick", "Perkins");
 		checkUnique2.put("Stuart", "Reges");
 		checkUnique2.put("Jessica", "Miller");
@@ -35,7 +35,6 @@ public class Assignment4 {
 	// if !duplicate return true
 	public static boolean isUnique(Map<String, String> map) {
 		Set<String> nameSetUnique = new HashSet<String>();
-		//Collection<String> names = map.values();
 		for (String name : map.values()) {
 			if (nameSetUnique.contains(name)) {
 				return false;
