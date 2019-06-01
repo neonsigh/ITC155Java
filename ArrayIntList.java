@@ -39,7 +39,7 @@ public class ArrayIntList {
 
 		
 	// replace value of 3 in list with value of 5	
-		list.replaceAll(3, 5);
+		list.replaceAll(6, 12);
 	// see the result of above replaceAll method call on list
 		System.out.println("list replaceAll result: " + list);
 	}
@@ -193,8 +193,8 @@ public class ArrayIntList {
 		
 		public int[] replaceAll(int oldValue, int newValue) {
 				for(int i = 0; i < size; i++) {
-					if(get(elementData[i]) == oldValue) {
-						set(elementData[i], newValue);
+					if(elementData[i] == oldValue) {
+						elementData[i] = newValue;
 					}
 				}
 				return elementData;
