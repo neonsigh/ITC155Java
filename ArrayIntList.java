@@ -1,3 +1,21 @@
+/*
+ * My book (Global Edition) did not have the assigned problem. 
+ * Here is the transcription of the problem given by Aaron A. (TA/tutor):
+ * 
+ * Write a method named replaceAll that takes in two integers as parameters, and returns a new array with the replaced values, for example
+
+	list.replaceAll(3, 5) would turn the original array [1, 2, 3, 4, 5, 3] into [1, 2, 5, 4, 5, 5] because it replaces all the values of 3, with 5.
+
+	Add this method onto the ArrayIntList class.
+
+ * See lines:
+ * 
+ *  57, 59: method call and print statement
+ *  211 : replaceAll method
+ *  
+ */
+
+
 import java.util.Arrays;
 
 
@@ -39,7 +57,7 @@ public class ArrayIntList {
 
 		
 	// replace value of 3 in list with value of 5	
-		list.replaceAll(6, 12);
+		list.replaceAll(3, 5);
 	// see the result of above replaceAll method call on list
 		System.out.println("list replaceAll result: " + list);
 	}
